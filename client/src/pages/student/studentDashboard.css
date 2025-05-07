@@ -1,0 +1,80 @@
+.student-dashboard {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.loading {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 1rem;
+}
+
+.retry-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.retry-button:hover {
+    background-color: #0056b3;
+}
+
+.quiz-list {
+    margin-top: 1.5rem;
+}
+
+.quiz-card {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.quiz-card:hover {
+    background-color: #f1f1f1;
+}
+
+.quiz-title {
+    margin: 0;
+}
+
+.completed-info {
+    color: green;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.quiz-button {
+    padding: 0.5rem 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.quiz-button:hover {
+    background-color: #218838;
+}
+
+.no-quiz-message {
+    text-align: center;
+    margin-top: 2rem;
+    color: #666;
+}
